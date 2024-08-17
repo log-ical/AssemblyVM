@@ -13,9 +13,11 @@ private:
     std::vector<std::string> program;
     uint32_t clock;
     uint16_t regAddress(std::string& reg);
+    bool isRegister(const std::string str);
     void exeInstruction(const std::string& instruction);
     void print(const uint16_t reg);
     void mov(uint16_t& reg, int value);
+    void mov(uint16_t& reg, uint16_t& reg2);
     void push(uint16_t& reg);
     void pop(uint16_t& reg);
     // void lea();
