@@ -1,7 +1,7 @@
 #include "programs/test.cpp"
-#include "instructions.cpp"
+#include "interpreter.cpp"
 int main(){
-    Instructions sys;
+    Interpreter sys;
     sys.loadInstructions(program);
     sys.execute();
     return 0;

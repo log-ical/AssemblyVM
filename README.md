@@ -1,3 +1,3 @@
 # AssemblyVM
-Custom x86 assembly language built in C++
+Custom ARM based assembly language built in C++
 Work in progress
